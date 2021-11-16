@@ -1,0 +1,17 @@
+.one{
+    background-color: aqua;
+    width: 33.33%;
+}
+.two{
+    background-color: yellow;
+    width: calc(100%/3);
+}
+.three{
+    background-color: fuchsia;
+    width: calc(100%/3);
+}
+.one, .two, .three{
+    width: 200px;
+    height: 100px;
+    color: white;
+}
