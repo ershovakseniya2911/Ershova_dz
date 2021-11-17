@@ -1,0 +1,23 @@
+header {
+background-color: antiquewhite;
+    color: darkcyan;
+    height: 200px;
+    width: 100%;
+}
+.site-title {
+    text-align: center;
+}
+
+.foto {
+    width: 33.33 %;
+    float: left;
+}
+
+.name {
+    width: 75 %;
+    float: left;
+}
+
+
+
+
