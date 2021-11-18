@@ -51,5 +51,77 @@ background-color: antiquewhite;
     background-color: green;
 }
 
+/* TABLE */
 
+.e1, .e2, .e5, .e6, .e9, .e10{
+    background-color:hotpink;
+}
+
+.e3, .e4, .e7, .e8, .e15, .e16{
+    background-color:yellow;
+}
+
+.e11, .e12, .e13, .e14{
+    background-color:skyblue;
+}
+
+
+
+.link{
+    display: block;
+    position: relative;
+    width: 120px;
+    height:70px;
+    text-decoration: underline;
+    color:black;
+}
+
+.link_item{
+    position: absolute;
+}
+
+.link_sumbol{
+    font-size:32px;
+    font-weight: bold;
+}
+
+.link_number{
+    font-size: 18px;
+    right:0;
+    font-weight: bold;
+}
+
+.link_name{
+    font-size: 20px;
+    bottom: 0;
+    font-weight: bold;
+}
+
+.link_atommass{
+    font-size:16px;
+    right:0;
+    top:calc(50% - 8px)
+}
+.link_sumbol1{
+    font-size:32px;
+    font-weight: bold;
+    right: 0;
+}
+.link_number1{
+    font-size: 18px;
+    left:0;
+    font-weight: bold;
+}
+.link_atommass1{
+    font-size:16px;
+    left:0;
+    top:calc(50% - 8px)
+}
+
+.link_name1{
+    font-size: 20px;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+}
 
