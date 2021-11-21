@@ -1,16 +1,39 @@
-header {
-background-color: antiquewhite;
-    color: darkcyan;
-    height: 200px;
+body{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+.container{
+    padding:0 15px;
     width: 100%;
 }
-.site-title {
-    text-align: center;
+
+.row{
+    display: flex;
     width: 100%;
+}
+
+header {
+    background: antiquewhite;
+    color: darkcyan;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
 }
 
 .foto {
     width: 30%;
+}
+
+.header__info{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 100px;
 }
 
 .name {
@@ -19,17 +42,17 @@ background-color: antiquewhite;
     text-align: center;
 }
 .main {
-    background-color: darkcyan;
+    background-color: burlywood;
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 .info {
     background-color: aqua;
     width: 70%;
     display: flex;
     flex-flow: column;
-
 }
 
 .info-gr {
@@ -49,6 +72,7 @@ background-color: antiquewhite;
     flex-flow: row;
     width: 50%;
     background-color: green;
+
 }
 
 /* TABLE */
@@ -64,8 +88,6 @@ background-color: antiquewhite;
 .e11, .e12, .e13, .e14{
     background-color:skyblue;
 }
-
-
 
 .link{
     display: block;
@@ -125,3 +147,43 @@ background-color: antiquewhite;
     font-weight: bold;
 }
 
+.table-link{
+    font-size:24px;
+    color: #520404;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* CUP */
+
+.cup{
+    width: 100%;
+}
+.cup__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cup__item{
+    display:flex;
+    flex-direction: column;
+}
+
+/* CUP2 */
+
+.cup2{
+    width: 100%;
+}
+.cup2__wrapper{
+    display: grid ;
+   grid-template-rows: 400px 400px;
+    grid-template-columns: 400px 400px;
+    margin: 100px 0;
+ justify-content: space-evenly;
+
+
+}
+.cup2__item{
+    display:grid;
+}
