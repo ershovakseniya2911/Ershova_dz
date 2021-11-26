@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    padding:0 15px;
+    padding:0 10px;
     width: 100%;
 }
 
@@ -173,7 +173,7 @@ header {
 .cup__item{
     display:flex;
     flex-direction: column;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .cup__title{
@@ -188,34 +188,37 @@ header {
 
 .cup2__wrapper{
     display: grid ;
-   grid-template-rows: 400px 400px;
+    grid-template-rows: 400px 400px;
     grid-template-columns: 400px 400px;
     margin: 100px 0;
- justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .cup2__item{
     display:grid;
 }
 
-}
 
 /* FOOTER */
+
 .footer{
+    width: 100%;
+    height: 25%;
     position: fixed;
     bottom: 0;
     left: 0;
-
+    display: flex;
+    flex-flow: column;
+    text-align: center;
 
 }
 .footer-content-right{
-    padding-right: 40px;
+    padding-right: 30px;
     margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
     font-size: 30px;
     font-weight: bold;
+
+
 }
 .icon-style{
     height: 40px;
